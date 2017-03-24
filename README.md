@@ -1,7 +1,8 @@
 # css3
-css3响应式布局
-弹性盒子模型实例
+##css3响应式布局
+##弹性盒子模型实例
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,6 @@ css3响应式布局
         .box div:nth-of-type(3) { -webkit-box-ordinal-group:1; -webkit-box-flex:1; }
         .box div:nth-of-type(4) { -webkit-box-ordinal-group:5; -webkit-box-flex:1; }
         .box div:nth-of-type(5) { -webkit-box-ordinal-group:3; -webkit-box-flex:2; }
-
         .box li {
             width: 10%;
             height: 100%;
@@ -41,7 +41,6 @@ css3响应式布局
         <div>4</div>
         <div>5</div>
     </div>
-
     <div class="box">
         <li>1</li>
         <li>2</li>
@@ -51,3 +50,4 @@ css3响应式布局
     </div>
 </body>
 </html>
+```
