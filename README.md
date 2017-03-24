@@ -17,7 +17,7 @@ css3响应式布局
             /*-webkit-box-orient:vertical; */
             /*-webkit-box-direction:reverse; //布局方向normal:顺序  reverse：倒序*/
         }
-        .box div { height: 100px; background:orange; color: #fff; font:30px/100px "STxihei"; text-align: center; border: 1px solid #fff; }
+        .box div { height: 100px; background:orange; color: #fff; font:30px/100px "STxihei"; text-align: center; border: 1px  solid #fff; }
         /*box-ordinal-group:设置元素的具体位置*/
         .box div:nth-of-type(1) { -webkit-box-ordinal-group:2; -webkit-box-flex:1; }
         .box div:nth-of-type(2) { -webkit-box-ordinal-group:4; -webkit-box-flex:1; }
